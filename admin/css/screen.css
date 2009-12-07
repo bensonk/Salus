@@ -1,0 +1,688 @@
+*{padding: 0; margin: 0;}
+
+html, body {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	color: #444;
+	background: #F5F5F5;
+	font: 11pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+p{
+	text-indent: 5%;
+	line-height: 150%;
+}
+
+h1{
+	font: 20pt Georgia, Garamond, "times new roman", times, serif;
+	color: #666666;
+	padding: .8em .5em .8em 0em;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #999;
+	padding: .5em;
+}
+
+#oneColumn{
+	width: 60%;
+	left: 20%;
+	position: relative;
+	padding: 1em;
+	padding-top: 3em;
+}
+
+#rightColumn h3{
+	padding: 1em 0em .5em 0em;
+}
+
+h4{
+	padding: .8em 0em;
+}
+
+h1 a{
+	text-decoration: none;
+	color: #666;
+}
+
+h1 a:hover{
+	color: #5091A8;
+	text-decoration: underline;
+}
+
+#container{
+	position: absolute;
+	width: 60%;
+	margin: 20px;
+	margin-left: -30%;
+	left: 50%;
+	border: 1px solid #F0F0F0;
+	background: #FFF;
+
+}
+
+#leftColumn{
+	clear: both;
+	float: left;
+	width: 45%;
+	padding: .2 1em 1em 1em;
+	position: relative;
+	left: 2.2em;
+	}
+
+#rightColumn{
+	float: right;
+	width: 25%;
+	padding: .2em 1em 1em 1em;
+	position: relative;
+	right: 2.2em;
+}
+
+#footer{
+	clear: both;
+	padding: 2em;
+	text-align: center;
+	font-size: 8pt;
+}
+
+#header{
+	width: 90%;
+	left: 5%;
+	position: relative;
+	border-bottom: 1px solid #F3F3F3;
+}
+
+#headerBottom{
+	clear: both;
+}
+
+ul{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 1em;
+	padding-top: 0em;
+}
+
+#leftColumn li{
+	border-bottom: 1px dotted #CCC;
+	padding: .4em;
+	clear: both;
+}
+
+.clear{
+	clear: both;
+}
+
+li:hover{
+	background: #f6fbfa;
+}
+
+.page, .user{
+	font: 14pt Georgia, Garamond, "times new roman", times, serif;
+	padding: .2em;
+}
+
+.options, .userSmall{
+	font-size: 8pt;
+	padding: .2em;
+	}
+
+.options a, .userSmall a{
+	color: #666;
+	text-decoration: none;
+	height: 16px;
+	vertical-align: middle;
+	margin-top: 4px;
+}
+
+.user a{
+	text-decoration: none;
+	color: #666;
+}
+
+.options a:hover, .ok a:hover, .cancel a:hover, .deleteOption a:hover, .userSmall a:hover, .user a:hover{
+	text-decoration: underline;
+}
+
+.user a:hover, .page a:hover{
+	color: #5091A8;
+}
+
+.clearBoth{
+	clear: both;
+}
+
+a img{
+	border: none;
+}
+
+.displayNone{
+	display: none;
+}
+
+.deleteOption, .view, .edit, .userSmall, .email, .me, .userLevel{
+	padding: 2px 20px 2px 20px;
+	height: 16px;
+	background: no-repeat center left;
+	vertical-align: center;
+}
+
+.userSmall{
+
+}
+
+.view{
+	background-image: url("../imgs/icons/page_white_go.gif");
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+.deleteOption{
+	background-image: url("../imgs/icons/bin_empty.gif");
+}
+
+.email{
+	background-image: url("../imgs/icons/email.gif");
+}
+
+.userLevel{
+	background-image: url("../imgs/icons/user.gif");
+}
+
+.me{
+	background-image: url("../imgs/icons/user_green.gif");
+}
+
+.edit{
+	background-image: url("../imgs/icons/page_edit.gif");
+}
+
+.userEdit a{
+	padding-right: 20px;
+}
+
+.userEdit a:hover{
+	background: url("../imgs/icons/user_edit.gif") right center no-repeat;
+}
+
+.center{
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+/*right column */
+
+#rightColumn a{
+	color: #333;
+	text-decoration: none;
+}
+
+#rightColumn a:hover{
+	color: #5091A8;
+	text-decoration: underline;
+}
+
+#rightColumn li{
+	padding: 6px 6px 6px 20px;
+	background: no-repeat left center;
+	height: 16px;
+	font-size: 14px;
+}
+
+li#addNewPage{
+	background-image: url("../imgs/icons/add.gif");
+}
+
+li#help{
+	background-image: url("../imgs/icons/help.gif");
+	border-top: 1px dotted #CCC;
+}
+
+li#preview{
+	background-image: url("../imgs/icons/page_white_go.gif");
+}
+
+li#addNewUser{
+	background-image: url("../imgs/icons/user_add.gif");
+}
+
+li#myAccount{
+	background-image: url("../imgs/icons/user_green.gif");
+}
+
+li#users{
+	border-top: 1px dotted #CCC;
+	background-image: url("../imgs/icons/user.gif");
+}
+
+li#settings{
+	border-top: 1px dotted #CCC;
+	background-image: url("../imgs/icons/page_white_gear.gif");
+}
+
+/*footer */
+
+#footer a{
+	text-decoration: none;
+	color: #333
+}
+
+#footer a:hover{
+	color: #333;
+}
+
+/* login dialogue */
+
+#login input{
+	display: block;
+	font: 14pt Georgia, Garamond, "times new roman", times, serif;
+	color: #999;
+	width: 100%;
+	margin: 2px 0px 5px 0px;
+}
+
+#login input#submit{
+	position: relative;
+	width: 30%;
+	left: 70%;
+	font-size: 12pt;
+	
+}
+
+#login input:hover{
+	color: #000;
+}
+
+#login{
+	position: relative;
+	width: 30%;
+	left: 35%;
+	font-size: 10pt;
+	padding: 1em;
+}
+
+#login fieldset{
+	width: 100%;
+	padding: 10px;
+	border: none;
+}
+
+#login fieldset:hover{
+	background: #FFFFF0;
+}
+
+#login label{
+	font: 11pt;
+}
+
+fieldset#submit:hover{
+	background: none;
+}
+
+#loginMessage{
+	font-size: 13pt;
+	color: #999;
+}
+
+#forgot{
+	font-size: 8pt;
+	padding: 2em 0em 0em 0em
+}
+
+#forgot a{
+	color: #5091A8;
+}
+
+#forgot a:hover{
+	color: #333;
+}
+
+/*account bar */
+
+#account{
+	position: relative;
+	padding: 1em 0em;
+	float: right;
+	font-size: 8pt;
+}
+
+#account a{
+	color: #666;
+	text-decoration: none;
+}
+
+#account a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+#title{
+	position: relative;
+	float: left;
+}
+
+/*editor*/
+#edit input, #settingsForm input{
+	display: block;
+	font: 12pt Georgia, Garamond, "times new roman", times, serif;
+	color: #999;
+	width: 100%;
+	margin: 2px 0px 5px 0px;
+}
+
+#edit textarea{
+	width: 98%;
+	height: 300px;
+	margin: 15px;
+}
+
+#edit input#submit, #settingsForm input#submit{
+	position: relative;
+	width: 40%;
+	left: 60%;
+	font-size: 10pt;
+	padding: .2em;
+}
+
+#edit input:hover, #settingsForm input:hover{
+	color: #000;
+}
+
+#edit, #settingsForm{
+	font-size: 10pt;
+	padding: 1em;
+}
+
+#edit fieldset, #settingsForm fieldset{
+	width: 100%;
+	padding: 10px;
+	border: none;
+}
+
+#edit fieldset:hover, #settingsForm fieldset:hover{
+	background: #FFFFF0;
+}
+
+#edit label, #settingsForm label, #dialog label{
+	font: 13pt;
+	height: 16px;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+#content{
+	font: 10pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+input#tags input#metaTags{
+	font: bold 10pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+label#tags, label#metaTags{
+	background: url("../imgs/icons/tag_blue.gif") no-repeat;
+}
+
+label#shortTitle, label#longTitle{
+	background: url("../imgs/icons/textfield_rename.gif") no-repeat;
+}
+
+label#content{
+	background: url("../imgs/icons/layout.gif") no-repeat;
+}
+
+#output, #message{
+	display: none;
+	font: 13pt Georgia, Garamond, "times new roman", times, serif;
+	padding: 1em;
+	margin-bottom: .5em;
+	background: #FFFFF0;
+	border: 1px solid #FFFFBA;
+}
+
+#message a, #output a{
+	color: #333;
+	text-decoration: none;
+}
+
+#message a:hover, #output a:hover{
+	color: #5091A8;
+}
+
+#editSubmit{
+	float: right;
+	width: 40%;
+	clear: none;
+}
+
+#editOutput{
+	float: left;
+	width: 50%;
+	display: none;
+	font: 13pt Georgia, Garamond, "times new roman", times, serif;
+	padding: .2em;
+	margin-left: 1em;
+}
+
+/* help */
+#help p{
+	font-size: 9pt;
+	background: #FFF;
+	color: #999;
+}
+
+div#help{
+	border-left: 2px solid #EEE;
+	padding-left: 5px;
+	margin-top: 1em;
+	margin-left: -10px;
+}
+
+#settingsForm div#help{
+	border: none;
+	padding: 0;
+	margin: 0;
+	font-size: 8pt;
+	color: #666;
+}
+
+#settingsForm a{
+	color: #5091A8;
+	text-decoration: none;
+}
+
+#settingsForm a:hover{
+	color: #666;
+}
+
+code{
+	background: #FFFFF0;
+}
+
+#help h3{
+	font: 11pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: none;
+	color: #666;
+	background: #FFF;
+	padding-top: 0;
+}
+
+/* account */
+#accountForm input, #accountForm select, #sendLogin input, #resetPassword input{
+	display: block;
+	font: 12pt Georgia, Garamond, "times new roman", times, serif;
+	color: #999;
+	width: 100%;
+	margin: .3em;
+}
+
+#accountForm input#submit, #sendLogin input#submit, #resetPassword input#submit{
+	position: relative;
+	width: 40%;
+	left: 60%;
+	font-size: 10pt;
+	padding: .2em;
+}
+
+#accountForm input:hover, #accountForm select:hover, #sendLogin input:hover, #resetPassword input:hover{
+	color: #000;
+}
+
+#accountForm, #sendLogin, #resetPassword{
+	font-size: 10pt;
+	padding: 1em;
+}
+
+#accountForm fieldset, #sendLogin fieldset, #resetPassword fieldset{
+	width: 100%;
+	padding: 10px;
+	border: none;
+}
+
+#accountForm fieldset:hover, #sendLogin fieldset:hover, #resetPassword fieldset:hover{
+	background: #FFFFF0;
+}
+
+#accountForm label, #sendLogin label, #resetPassword label{
+	font: 13pt;
+	height: 16px;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+label#firstName, label#lastName {
+	background: url("../imgs/icons/vcard.gif") no-repeat;
+}
+
+label#emailAddress, label#adminEmail{
+	background: url("../imgs/icons/email.gif") no-repeat;
+}
+
+label#password1, label#password2{
+background: url("../imgs/icons/lock.gif") no-repeat;
+}
+
+label#username{
+background: url("../imgs/icons/user_green.gif") no-repeat;
+}
+
+label#userLevel{
+background: url("../imgs/icons/group_key.gif") no-repeat;
+}
+
+label#siteUrl, label#adminUrl{
+	background: url("../imgs/icons/page_white_world.gif") no-repeat;
+}
+
+ul#addUser{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+ul#addUser li{
+	font-size: 9pt;
+	padding: 0em .4em .4em .4em;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+}
+
+/*dialogs*/
+.pageNew{
+	background: url("../imgs/icons/new_bg.gif") no-repeat right;
+}
+
+li.pageNew:hover {
+	background: #f6fbfa url("../imgs/icons/new_bg.gif") no-repeat right;
+}
+
+#dialog input#submit{
+	
+}
+
+#dialog input{
+	display: inline;
+	font: 14pt Georgia, Garamond, "times new roman", times, serif;
+	color: #999;
+	}
+
+#dialog input:hover{
+	color: #333;
+	}
+	
+#dialog fieldset{
+	border: none;
+}
+
+#dialog label{
+	display: block;
+	font-size: 9pt;
+	background: url("../imgs/icons/help.gif") no-repeat;
+	margin-bottom: .4em;
+}
+
+#dialog #tbMessage{
+	font: 9pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#dialog #tbMessage img{
+	margin-bottom: -3px;
+}
+
+#loginThickbox{
+	padding-top: 1em;
+	position: relative;
+	left: 50%;
+	margin-left: -25%;
+}
+
+#loginThickbox fieldset{
+	padding: .4em;
+}
+
+#dialog label#username{
+	background: url("../imgs/icons/user.gif") no-repeat;
+}
+
+#dialog label#password{
+	background: url("../imgs/icons/textfield_key.gif") no-repeat;
+}
+
+/* levels */
+.level0{
+	font-size: 16pt;
+}
+
+.level1{
+	font-size: 13pt;
+	text-indent: 10px;
+}
+
+.level2{
+	font-size: 12pt;
+	text-indent: 20px;
+}
+
+.level3{
+	font-size: 11pt;
+	text-indent: 20px;
+}
+
+.level4{
+	font-size: 10pt;
+	text-indent: 20px;
+}
+
+.level5{
+	font-size: 9pt;
+	text-indent: 20px;
+}
+
+.level6{
+	font-size: 8pt;
+	text-indent: 20px;
+}

@@ -1,0 +1,170 @@
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12pt Georgia, Garamond, "times new roman", times, serif;
+}
+
+#TB_secondLine {
+	color: #666;
+	font: 9pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#TB_window a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+#TB_window a:visited {color: #000;
+	text-decoration: none;
+}
+
+#TB_window a:hover {color: #5091A8;}
+#TB_window a:active {color: #000;}
+#TB_window a:focus{color: #000;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+#TB_window {
+	position: absolute;
+	background: #fffff0;
+	z-index: 102;
+	color:#666;
+	display:none;
+	border: 1px solid #666;
+	text-align:left;
+}
+
+#TB_caption{
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+	font: bold 11pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#TB_closeAjaxWindow{
+	padding: 3px 10px 0px 0px;
+	text-align:right;
+	float:right;
+	background-color:#666;
+	font: bold 10pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;	
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding: 5px;
+	background-color:#666;
+	color: #fff;
+	font: bold 9pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#TB_closeAjaxWindow a, #TB_closeAjaxWindow a:visited, #TB_closeAjaxWindow a:hover{
+	color: #FFF;
+}
+
+a#TB_closeWindowButton{
+	padding: 1px;
+}
+
+a#TB_closeWindowButton:hover{
+	text-decoration: underline;
+}
+
+
+#TB_title{
+	background-color:#666;
+	height: 30px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:15px 15px 15px 15px;
+	overflow:hide;
+}
+
+#TB_load{
+	position: absolute;
+	display:none;
+	height:100px;
+	width:100px;
+	z-index:101;
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:absolute;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+
+#vid{
+	text-align: center;
+	padding: none;
+}
+
+.delete{
+	background: #FFFFF0;
+	font: bold 10pt Georgia, Garamond, "times new roman", times, serif;
+}
+
+.delete img{
+	padding: 4px;
+}
+
+.warning{
+	background: no-repeat #FFFFF0 url("../imgs/icons/error.gif") 0px 2px;
+	padding-left: 25px;
+	margin: 0px .3em .3em .3em;
+	padding-bottom: .8em;
+}
+
+.ok a, .cancel a{
+	color: #333;
+	text-decoration: none;
+	font: bold 8pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 16px;
+	vertical-align: middle;
+	margin: 4px;
+	padding-bottom: 3px;
+}
+
+.ok{
+	background: no-repeat url("../imgs/icons/accept.gif") 0px 2px;
+	padding-left: 18px;
+	padding-right: 20px;
+}
+
+.cancel{
+	background: no-repeat url("../imgs/icons/delete.gif") 0px 2px;
+	padding-left: 18px;
+
+}

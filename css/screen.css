@@ -1,0 +1,107 @@
+html, body {
+	background: #333;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+#container{
+	width: 760px;
+	position: absolute;
+	margin-left: -380px;
+	left: 50%;
+	font: 11pt "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	min-height: 100%;
+}
+
+#leftColumn{
+	float: left;
+	width: 500px;
+	margin: none;
+	padding: 30px 2em 2em 2em;
+	position: relative;
+}
+
+#rightColumn{
+	float: right;
+	width: 180px;
+	position: relative;
+	min-height: 100%;
+	font-size: 9pt;
+	padding: 30px 0px 3em 0px;
+}
+
+#rightColumn ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-top: 1px solid #CCC;
+}
+
+#rightColumn li a{
+	display: block;
+	background: #666;
+	padding: .6em .6em .6em 2em;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #F4F4F4;
+}
+
+#rightColumn li a:hover{
+	background: #F4F4F4;
+	border-left: 5px solid #C7DDDB;
+}
+
+a{
+	color: #C7DDDB;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #5091A8;
+}
+
+#rightColumn li ul{
+	padding-left: 5px;
+	font-size: 8pt;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	padding: 2em;
+}
+
+a img{
+	border: none;
+}
+
+#header{
+	background: #F4F4F4;
+	width: 758px;
+	top: 0px;
+	position: relative;
+	padding: 0px;
+	border: 1px solid #F4F4F4;
+	border-bottom: 1px solid #999;
+}
+
+h1{
+	font: 1.8em Georgia, Garamond, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+#header h1{
+	padding: .05em 0em .05em 1em;
+}
+
+#leftColumn h1, #leftColumn p, #leftColumn div{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+hr{
+	border: none;
+	border-bottom: 1px solid #CCC;
+	text-align: center;
+}
+
