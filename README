@@ -1,0 +1,20 @@
+h3. History
+
+Salus was created several years ago after I became frustrated with the available CMS options for small websites. Although there are still sites running on it, the project was largely abandoned about two years ago, due in part to better options for small sites becoming widely available (CushyCMS, WordPress).
+
+h3. Project Goals
+
+* Provide a CMS suitable for 5-10 page sites
+* Allow it to run on nearly any platform with PHP (low requirements/dependencies)
+* Keep user interface to a minimum and make it usable for novices
+* Use common-sense variables and some simple functions to make templating flexible and easy
+
+h3. Notes
+
+* The project is using an outdated version of jQuery, which should be updated
+* Xihna editor should be replaced by a more modern WYSIWYG editor
+* The database layer is provided by PHPObjectGenerator (POG) http://www.phpobjectgenerator.com/
+
+h3. Current Status
+
+I think there's still a place out there for a simple, easy-to-use, quick to deploy CMS based in PHP. Salus probably needs a complete rewrite, but many of the original concepts still have a place.
